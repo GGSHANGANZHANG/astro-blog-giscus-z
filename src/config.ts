@@ -1,10 +1,10 @@
 import type { Site, SocialObjects } from "./types";
 
 export const SITE: Site = {
-  website: "https://jizhule.cn/",
-  author: "youquan",
-  desc: "web技术博客",
-  title: "記住了",
+  website: "https://www.jojojo.online/",
+  author: "zhangx",
+  desc: "yeyeyeye博客",
+  title: "jojoZHANG的空间",
   ogImage: "astropaper-og.jpg",
   lightAndDarkMode: true,
   postPerPage: 5,
@@ -22,7 +22,7 @@ export const LOGO_IMAGE = {
 export const SOCIALS: SocialObjects = [
   {
     name: "Github",
-    href: "https://github.com/yq612/astro-paper-plus",
+    href: "https://github.com/GGSHANGANZHANG/astro-blog-giscus-z/",
     linkTitle: ` ${SITE.title} on Github`,
     active: true,
   },
@@ -46,7 +46,7 @@ export const SOCIALS: SocialObjects = [
   },
   {
     name: "Mail",
-    href: "mailto:695601924@qq.com",
+    href: "mailto:1139284457@qq.com",
     linkTitle: `Send an email to ${SITE.title}`,
     active: true,
   },
